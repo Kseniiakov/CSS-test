@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+.inl-bk {
+  display: inline-block;
+}
+body {
+  height: 100vh;
+  margin: 0px;
+}
+main {
+  background-color: rgb(168, 168, 168);
+  height: 300px;
+  padding: 20px;
+}
+.sect-one {
+  background-color: rgb(253, 117, 107);
+  height: 100%;
+  width: 40%;
+  text-align: center;
+  padding: 100px;
+}
+.sect-two {
+  width: 60%;
+  height: 100%;
+  vertical-align: top;
+}
+.two {
+  height: 100%;
+  text-align: center;
+  height: 37%;
+  background-color: rgb(177, 221, 111);
+  margin-left: 15px;
+  margin-bottom: 3%;
+}
+.other {
+  height: 60%;
+  margin-left: 15px;
+}
+.three {
+  height: 100%;
+  background-color: rgb(250, 150, 200);
+  width: 50%;
+  vertical-align: top;
+  text-align: center;
+  padding-top: 40px;
+}
+.four {
+  margin-left: 5%;
+  width:45% ;
+  text-align: center;
+}
+.four-one {
+  background-color: rgb(156, 100, 197);
+  margin-bottom: 18px;
+}
+.four-two {
+  background-color: rgb(156, 100, 197);
+}
