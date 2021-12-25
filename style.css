@@ -3,7 +3,6 @@
   color: white;
   font-family: sans-serif;
   font-weight: 700;
-  font-size: 60px;
 }
 .inl-bk {
   display: inline-block;
@@ -16,51 +15,76 @@ main {
   background-color: rgb(168, 168, 168);
   height: 400px;
   padding: 20px;
+  font-size: 0px;
 }
-.sect-one {
+.large-column-one {
   background-color: rgb(253, 117, 107);
   height: 100%;
   width: 40%;
   text-align: center;
-  padding: 100px;
+  line-height: 360px;
+  font-size: 60px;
 }
-.sect-two {
+.large-column-two {
   width: 60%;
   height: 100%;
   vertical-align: top;
+  font-size: 60px;
+  padding-left: 20px;
 }
-.two {
-  height: 100%;
-  text-align: center;
-  height: 37%;
-  background-color: rgb(177, 221, 111);
-  margin-left: 15px;
-  margin-bottom: 4%;
-}
-.other {
+
+.top-string {
   height: 50%;
-  margin-left: 15px;
 }
-.three {
+
+.plate-two{
+  text-align: center;
   height: 100%;
-  background-color: rgb(250, 150, 200);
-  width: 50%;
+  background-color: rgb(177, 221, 111);
+  line-height: 170px;
+}
+.bottom-string {
+  height: 50%;
+  font-size: 0px;
+}
+
+.small-column-one {
+  font-size: 60px;
   vertical-align: top;
-  text-align: center;
-  padding-top: 40px;
-}
-.four {
-  margin-left: 5%;
-  width:45% ;
-  text-align: center;
+  width: 50%;
+  padding-right: 10px;
   height: 100%;
 }
-.four-one {
-  background-color: rgb(156, 100, 197);
-  margin-bottom: 4%;
-  height: 44%;
+
+.plate-three {
+  background-color: rgb(250, 150, 200);
+  text-align: center;
+  line-height: 170px;
+  height: 100%;
 }
-.four-two {
+
+.small-column-two {
+  padding-left: 10px;
+  width: 50%;
+  text-align: center;
+  height: 100%;
+  font-size: 60px;
+}
+
+.container-plate-four {
+  height: 50%;
+}
+
+.plate-four {
   background-color: rgb(156, 100, 197);
-  height: 44%;
+  height: 100%;
+  line-height: 75px;
+}
+
+.pad-top10 {
+  padding-top: 10px;
+}
+
+.pad-bot10 {
+  padding-bottom: 10px;
 }
